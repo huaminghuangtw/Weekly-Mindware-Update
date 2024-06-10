@@ -1,4 +1,3 @@
-
 - "On any given day, you may struggle with your habits because you're too busy or too tired or too overwhelmed or hundreds of other reasons. Over the long run, the real reason you fail to stick with habits is that your self-image gets in the way. This is why you can't get too attached to one version of your identity. Progress requires unlearning. Becoming the best version of yourself requires you to continuously edit your beliefs, and to upgrade and expand your identity." — Atomic Habits
 
 - "Poverty charges interest. Wealth pays interest." — Tay Zonday
@@ -21,13 +20,13 @@
 
 - Time management is pain management.
 
-- You can always make more money, but you can’t make more time.
+- You can always make more money, but you can't make more time.
 
 - Everyone (and everything) is competing for your attention, use it wisely, you don't get the time back! (Remember: Your energy flows to where your attention goes)
 
 The Red Queen Effect: we must run just to stay in place—and that we must run even faster to ever hope to get ahead
 
-Reward prediction error = actual reward – expected reward ⭢ Takeways: expect nothing!
+Reward prediction error = actual reward – expected reward &rarr; Takeways: expect nothing!
 
 自信的謙虛 (Confident Humility) — 不是自大，而是自信 (Be Confident, But Humble): 相信自己能夠在未來實現某個目標，同時隨時抱持謙虛的態度質疑自己現在的方法是否得當
 
@@ -57,13 +56,13 @@ How to do great work? The three most powerful motives are curiosity, delight, an
 
 Dark Hours: when most people don't operate; when the world has switched off
 
-About Innovation: New things are usually a combination of existing things → Originality is overrated
+About Innovation: New things are usually a combination of existing things &rarr; Originality is overrated
 
 Nostalgia (Memory DivIdends): to intentionally have experiences
 
 - Memory Dividends are the continued tail of "payouts" you receive from re-experiencing an experience in the future
 
-Second-order Thinking: Imagine a rock is thrown into a lake. The splash is the first-order effect. The ripples are the second-order effects. The world is filled with first-order thinkers—it’s easy. Dig deeper. Always ask “and then what?”—consider the layers of consequences.
+Second-order Thinking: Imagine a rock is thrown into a lake. The splash is the first-order effect. The ripples are the second-order effects. The world is filled with first-order thinkers—it's easy. Dig deeper. Always ask "and then what?"—consider the layers of consequences.
 
 Chaos is our default state. Embrace the chaos. Act in the middle of chaos.
 
@@ -85,7 +84,7 @@ When you say 'yes' to others, make sure you aren't saying 'no' to yourself.
 
 Discipline Eats Motivation For Breakfast.
 
-"Whenever possible, win without fighting or, at the very least, to win the easiest battles first." — Sun Tzu (the master of “soft power” and the father of “agile warfare”) → Fight battles you are destined to win.
+"Whenever possible, win without fighting or, at the very least, to win the easiest battles first." — Sun Tzu (the master of "soft power" and the father of "agile warfare") &rarr; Fight battles you are destined to win.
 
 "Any decision that involves using a limited resource like (energy/attention, )time or money will naturally result in a winner-take-all situation." — James Clear
 
@@ -103,13 +102,13 @@ The willingness to make sacrifices for others, to be able to wait for a reward, 
 
 There is never enough time to do everything, but there is always enough time to do the most important thing.
 
-Probabilistical Thinking (機率型思維): having a willingness to always ask questions like “What else might happen?”, “What could happen next?”, “What if we're wrong?” and to look at the full range of possibilities that might come to pass rather than to assume that things will go as planned. ↔ Deterministic Thinking (絕對型思維)
+Probabilistical Thinking (機率型思維): having a willingness to always ask questions like "What else might happen?", "What could happen next?", "What if we're wrong?" and to look at the full range of possibilities that might come to pass rather than to assume that things will go as planned. &harr; Deterministic Thinking (絕對型思維)
 
 Many successful people are terrible procrastinators and find it almost impossible to make themselves do anything they're not interested in.
 
 The way you speak to others is the way you speak to yourself.
 
-Personal growth is not a matter of learning new information but of unlearning old limits. → Reflect more.
+Personal growth is not a matter of learning new information but of unlearning old limits. &rarr; Reflect more.
 
 A ship in harbor is safe — but that is not what ships are built for.
 
@@ -135,7 +134,7 @@ The point of seeking advice isn't to follow it blindly. It's to make sure you're
 
 Kind words can be short and easy to speak, but their echoes are truly endless.
 
-Some people talk to you in their free time and some people free their time to talk to you. → Make sure you know the difference.
+Some people talk to you in their free time and some people free their time to talk to you. &rarr; Make sure you know the difference.
 
 If a product is free, then you are the product.
 
@@ -173,7 +172,7 @@ Our decisions are investments we make into our future.
 
 If it's worth doing, it's worth doing very well.
 
-The hardest respect to earn is one’s own.
+The hardest respect to earn is one's own.
 
 Who looks outside, dreams; who looks inside, awakes.
 
@@ -209,15 +208,15 @@ Wealth is created not by spending your time making money but rather by saving yo
 
 Fix hardware (physiology) before software (psychology).
 
-We often believe that we can't afford the time it takes to learn (“I don’t have time.”), but the opposite is true: None of us can afford the consequence of not to learn.
+We often believe that we can't afford the time it takes to learn ("I don't have time."), but the opposite is true: None of us can afford the consequence of not to learn.
 
-Learning is the single best investment that we can make for our time. → “An investment in knowledge pays the best interest.” — Benjamin Franklin
+Learning is the single best investment that we can make for our time. &rarr; "An investment in knowledge pays the best interest." — Benjamin Franklin
 
 Live as if you were to die tomorrow. Learn as if you were to live forever.
 
 "The cave you fear to enter holds the treasure you seek." — Joseph Campbell
 
-The stresses and worries in life are like a glass of water. → The absolute weight doesn't matter. It depends on how long you hold it. → Think about them for a while, nothing happens. Think about them a bit longer, they will begin to hurt. Think about them all day long, you will feel paralyzed and incapable of doing anything.
+The stresses and worries in life are like a glass of water. &rarr; The absolute weight doesn't matter. It depends on how long you hold it. &rarr; Think about them for a while, nothing happens. Think about them a bit longer, they will begin to hurt. Think about them all day long, you will feel paralyzed and incapable of doing anything.
 
 To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
 
@@ -225,7 +224,7 @@ To follow up an error with a foolish reaction is to lose twice.
 
 Perseverance is not a long race; it is many short races one after another.
 
-The Fight Against Normalcy: to maintain your uniqueness/distinctiveness in a world that pulls you to blend in / wants you to be typical, is the only way to realize your full potential and live a fulfilled, texture-rich existence → It comes with a risk, but the rewards are abundant. It may come with a steep cost in the short-term, but the long-term rewards are worth it.
+The Fight Against Normalcy: to maintain your uniqueness/distinctiveness in a world that pulls you to blend in / wants you to be typical, is the only way to realize your full potential and live a fulfilled, texture-rich existence &rarr; It comes with a risk, but the rewards are abundant. It may come with a steep cost in the short-term, but the long-term rewards are worth it.
 
 You won't always get what you strive for, but you will definitely get what you settle for. You won't magically outperform your standards.
 
@@ -239,7 +238,7 @@ You are not the cause of everything that happens to you, but you are responsible
 
 You are what you do, not what you say you'll do.
 
-The important work, the work we really want to do, doesn’t come with a recipe. It follows a different pattern.
+The important work, the work we really want to do, doesn't come with a recipe. It follows a different pattern.
 
 We don't see things as they are, we see them as we are.
 
@@ -255,7 +254,7 @@ My destination is no longer a place, rather a new way of seeing.
 
 Ten minutes, once gone, are gone for good.
 
-The Anti-To-Do List — "All I want to know is where I'm going to die, so I'll never go there." — Charlie Munger → Invert the problem. Identify the traps. Avoid stupidity. Complex problems are sometimes better solved backwards.
+The Anti-To-Do List — "All I want to know is where I'm going to die, so I'll never go there." — Charlie Munger &rarr; Invert the problem. Identify the traps. Avoid stupidity. Complex problems are sometimes better solved backwards.
 
 We waste time looking for the perfect lover, instead of creating the perfect love.
 
@@ -269,7 +268,7 @@ If you get tired, learn to rest, not to quit.
 
 Don't be pushed by your problems. Be led by your dreams.
 
-失敗為成功之母 → 小成功為成功之母
+失敗為成功之母 &rarr; 小成功為成功之母
 
 愛有等差—斷捨離大部分的人生過客，把寶貴時間花在那些很努力想要留在我們生命裡的人
 
@@ -287,7 +286,7 @@ Do no harm, but take no shit/crap. (Idea: we can be both compassionate to others
 
 All things are difficult before they are easy.
 
-Breaks aren’t a special treat. They’re an absolute necessity.
+Breaks aren't a special treat. They're an absolute necessity.
 
 Daily dose of sweat, sunlight and silence will solve 99% of your problems.
 
@@ -309,7 +308,7 @@ Put the overthinking to bed. With an average of 60,000-80,000 daily thoughts, re
 
 Don't confuse DISAGREEMENT with DISRESPECT. Feedback can skyrocket your growth if you don't take it personally.
 
-Our goal is to live so that we can confidently answer, "I didn’t miss it. I was there for it, and I invested my time and energy into the relationships that matter." This, to me, is the test of life.
+Our goal is to live so that we can confidently answer, "I didn't miss it. I was there for it, and I invested my time and energy into the relationships that matter." This, to me, is the test of life.
 
 Stop being afraid of what could go wrong and start being positive about what could go right.
 
