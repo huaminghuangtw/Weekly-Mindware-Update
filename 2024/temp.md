@@ -1,29 +1,3 @@
-- "On any given day, you may struggle with your habits because you're too busy or too tired or too overwhelmed or hundreds of other reasons. Over the long run, the real reason you fail to stick with habits is that your self-image gets in the way. This is why you can't get too attached to one version of your identity. Progress requires unlearning. Becoming the best version of yourself requires you to continuously edit your beliefs, and to upgrade and expand your identity." — Atomic Habits
-
-- "Poverty charges interest. Wealth pays interest." — Tay Zonday
-
-- Attach to input/intention. Detach from output/results. (Detach input from output.) (Journey before destination.)
-
-- Choiceless Awareness
-
-- I don't want to look back on my life with regrets
-
-- Meditation is the intermittent fasting for the mind
-
-- Never let your quest for more distract you from the beauty of enough
-
-- The "Yes-Damn" Effect
-
-- The more I learn, the less I feel I know.
-
-- The Seasonality of Life
-
-- Time management is pain management.
-
-- You can always make more money, but you can't make more time.
-
-- Everyone (and everything) is competing for your attention, use it wisely, you don't get the time back! (Remember: Your energy flows to where your attention goes)
-
 The Red Queen Effect: we must run just to stay in place—and that we must run even faster to ever hope to get ahead
 
 Reward prediction error = actual reward – expected reward &rarr; Takeways: expect nothing!
@@ -271,45 +245,3 @@ Don't be pushed by your problems. Be led by your dreams.
 失敗為成功之母 &rarr; 小成功為成功之母
 
 愛有等差—斷捨離大部分的人生過客，把寶貴時間花在那些很努力想要留在我們生命裡的人
-
-接受這個世界自然運行的樣貌：當你因為外在事物而痛苦，折磨你的並非事物本身，而是你對事物的評價—其實，你是有能力立刻拋開這些評價的—訓練自己面對事物時，內心不產生意見、靈魂不為之躁動，都是我們能力所及的事；因為，事物天生並不具備讓我們產生意見的能力。
-
-「願上帝賜我平靜，去接受我所不能改變的；願上帝賜我勇氣，去改變我所能夠改變的；願上帝賜我智慧，去分辨兩者間的差異。」~寧靜禱文—尼布爾 Reinhold Niebuhr
-
-Nothing meaningful in life is easy. Nothing easy in life is meaningful.
-
-
-
-I have had lots of troubles in my life, most of which never happened.
-
-Do no harm, but take no shit/crap. (Idea: we can be both compassionate to others and have healthy boundaries.)
-
-All things are difficult before they are easy.
-
-Breaks aren't a special treat. They're an absolute necessity.
-
-Daily dose of sweat, sunlight and silence will solve 99% of your problems.
-
-Others treat you the way you treat yourself.
-
-It's not about managing your emotions; it's about managing your reaction to your emotions.
-
-The Illusion of Choice: If you want to be good, you don't really have a lot of choices. It takes what it takes. You have to do what you have to do to be successful.
-
-- If something is wrong, fix it now, but train yourself not to worry. — Worry is wasted. Worry fixes nothing.
-
-- "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." — Steve Jobs
-
-- The wedding is an event, love is a practice. The graduation is an event, education is a practice. The race is an event, fitness is a practice. The heart, mind, and body are endless pursuits.
-
-You live longer once you realize that any time spent being unhappy is wasted.
-
-Put the overthinking to bed. With an average of 60,000-80,000 daily thoughts, remember you don't need to engage with every single one. Breathe, relax, let it pass.
-
-Don't confuse DISAGREEMENT with DISRESPECT. Feedback can skyrocket your growth if you don't take it personally.
-
-Our goal is to live so that we can confidently answer, "I didn't miss it. I was there for it, and I invested my time and energy into the relationships that matter." This, to me, is the test of life.
-
-Stop being afraid of what could go wrong and start being positive about what could go right.
-
-Normal behavior is forgotten. Only weird behavior survives. — Nobody tells stories of when you did the expected — they only tell stories when you did the unexpected. Normalize being weird. Weirdness is what sets us apart, gets us hired. Be your unapologetically weird self. In fact, being weird may even find you the ultimate happiness.
