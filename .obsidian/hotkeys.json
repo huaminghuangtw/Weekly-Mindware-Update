@@ -10,7 +10,7 @@
   "app:open-vault": [
     {
       "modifiers": [
-        "Shift"
+        "Alt"
       ],
       "key": "\\"
     }
