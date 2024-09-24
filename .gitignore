@@ -3,7 +3,3 @@
 
 # Exception
 !.gitignore
-!.obsidian
-
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
