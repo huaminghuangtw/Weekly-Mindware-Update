@@ -2,7 +2,7 @@
 
 > **Last Update:** 2025-04-06  
 
-[<kbd> <br> 📖 Read Latest WMU <br> </kbd>](./2025/2025_Week_14.md)
+[📖 Read Latest WMU](./2025/2025_Week_14.md)
 
 ## About
 
