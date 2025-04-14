@@ -1,8 +1,9 @@
 # Weekly Mindware Update
 
-> **Last Update:** 2025-04-06  
+> **Last Update:** 2025-04-13  
 
-[📖 Read Latest WMU](./2025/2025_Week_14.md)
+| [📖 Read Latest WMU](./2025/2025_Week_15.md) |
+| :-: |
 
 ## About
 
@@ -24,7 +25,7 @@ food for thought
 
 <summary>
    <strong>
-	  <a href="./">All Issues (66)</a>
+	  <a href="./">All Issues (67)</a>
    </strong>
 </summary>
 
@@ -35,6 +36,7 @@ food for thought
 	  </strong>
 	</summary>
 
+	* <a href="./2025/2025_Week_15.md">Week 15</a>
 	* <a href="./2025/2025_Week_14.md">Week 14</a>
 	* <a href="./2025/2025_Week_13.md">Week 13</a>
 	* <a href="./2025/2025_Week_12.md">Week 12</a>
