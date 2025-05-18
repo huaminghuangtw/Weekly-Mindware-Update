@@ -2,7 +2,7 @@
 
 > **Last Update:** 2025-05-11  
 
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](/2025/2025_Week_19.md)
+[Read Latest WMU](2025/2025_Week_19.md)
 
 ## About
 
