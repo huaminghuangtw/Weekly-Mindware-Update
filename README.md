@@ -1,6 +1,6 @@
 # Weekly Mindware Update
 
-> **Last Update:** 2025-06-15  
+> **Last Update:** 2025-06-15
 
 [![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](/2025/2025_Week_24.md)
 
