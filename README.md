@@ -1,11 +1,10 @@
 ---
 created: 2025-06-27T16:10:28
-modified: 2025-07-10T12:37:02
+modified: 2025-07-13T08:27:27
 ---
-
 # Weekly Mindware Update
 
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](/2025/2025_Week_27.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](/2025/2025_Week_28.md)
 
 ## About
 
@@ -16,7 +15,6 @@ genuine intellectual curiosity
 ### Wisdom I Pondered This Week
 
 nuggets of wisdom
-
 food for thought
 
 ### Things I Learned This Week
@@ -27,17 +25,18 @@ food for thought
 <details>
 <summary>
   <strong>
-    <a href=".">All Issues (79)</a>
+    <a href=".">All Issues (80)</a>
   </strong>
 </summary>
 
 - <details>
     <summary>
       <strong>
-        <a href="2025">2025 (27)</a>
+        <a href="2025">2025 (28)</a>
       </strong>
     </summary>
 
+    - <a href="2025/2025_Week_28.md">#80 - Week 28</a>
     - <a href="2025/2025_Week_27.md">#79 - Week 27</a>
     - <a href="2025/2025_Week_26.md">#78 - Week 26</a>
     - <a href="2025/2025_Week_25.md">#77 - Week 25</a>
