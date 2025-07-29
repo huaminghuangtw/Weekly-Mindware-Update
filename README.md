@@ -12,11 +12,15 @@ nuggets of wisdom
 
 food for thought
 
+spark curiosity, nourish minds
+
 ### Things I Learned This Week
 
-## All Issues
+## Archive
 
 <!-- INDEX-START -->
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_30.md)
+
 <details>
 <summary>
   <strong>
