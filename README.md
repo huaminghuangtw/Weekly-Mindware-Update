@@ -137,6 +137,19 @@ spark curiosity, nourish minds
 
   </details>
 
+- <details>
+    <summary>
+      <strong>
+        <a href="assets">assets (0)</a>
+      </strong>
+    </summary>
+
+  </details>
+
 </details>
 
 <!-- INDEX-END -->
+
+## Contribution
+
+Contributions are welcome! Please [open an issue](https://github.com/huaminghuangtw/Weekly-Mindware-Update/issues/new) or [submit a pull request](https://github.com/huaminghuangtw/Weekly-Mindware-Update/compare).
