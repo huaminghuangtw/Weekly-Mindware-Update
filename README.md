@@ -1,20 +1,44 @@
 # Weekly Mindware Update
 
+> _“Nearly everything is really interesting if you go into it deeply enough.” — Richard Feynman_
+
 ## About
 
-I came across throughout the web or conversation
+This repository is a weekly dump of ten thought-provoking ideas that spark my curiosity through conversations and reading. You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
-genuine intellectual curiosity
+## Tools
 
-### Wisdom I Pondered This Week
+Three tools to help you get the most out of this repository:
 
-nuggets of wisdom
+### [Apple Shortcut](https://shortcutomation.com/gallery/shared/weekly-mindware-update/)
 
-food for thought
+<p align="center">
+<a href="https://shortcutomation.com/gallery/shared/weekly-mindware-update/">
+<kbd>
+<img src="assets/notification.png" width="300" title=""/>
+</kbd>
+</a>
+</p>
 
-spark curiosity, nourish minds
+### [Scriptable Widget](https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js)
 
-### Things I Learned This Week
+<p align="center">
+<a href="https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js">
+<kbd>
+<img src="assets/widget.png" width="300" title=""/>
+</kbd>
+</a>
+</p>
+
+### [Obsidian Callout](https://github.com/huaminghuangtw/Second-Brain/blob/main/Homepage.md#-weekly-mindware-update)
+
+<p align="center">
+<a href="https://github.com/huaminghuangtw/Second-Brain/blob/main/Homepage.md#-weekly-mindware-update">
+<kbd>
+<img src="assets/callout.png" width="300" title=""/>
+</kbd>
+</a>
+</p>
 
 ## Archive
 
