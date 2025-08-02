@@ -4,7 +4,7 @@
 
 ## About
 
-This repository is a weekly dump of ten thought-provoking ideas that spark my curiosity through conversations and reading. You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
+This repository is a weekly dump of ten ideas that spark my curiosity while reading or talking. You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 ## Tools
 
@@ -13,7 +13,7 @@ Three tools to help you get the most out of this repository:
 ### [Apple Shortcut](https://shortcutomation.com/gallery/shared/weekly-mindware-update/)
 
 <p align="center">
-<a href="https://shortcutomation.com/gallery/shared/weekly-mindware-update/">
+<a href="assets/notification.png">
 <kbd>
 <img src="assets/notification.png" width="300" title=""/>
 </kbd>
@@ -23,7 +23,7 @@ Three tools to help you get the most out of this repository:
 ### [Scriptable Widget](https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js)
 
 <p align="center">
-<a href="https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js">
+<a href="assets/widget.png">
 <kbd>
 <img src="assets/widget.png" width="300" title=""/>
 </kbd>
