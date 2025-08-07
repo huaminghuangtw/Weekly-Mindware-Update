@@ -4,9 +4,7 @@
 
 ## About
 
-This repository is a weekly dump of ten ideas that spark my curiosity and expand my mind.
-
-The sources are diverse, often captured while I'm [reading](https://github.com/huaminghuangtw/Brain-Food) or having a conversation with people.
+This repository is a weekly dump of ten ideas that spark my curiosity and expand my mind. The sources are diverse, often captured while I'm [reading](https://github.com/huaminghuangtw/Brain-Food) or having a conversation with people.
 
 ## Why I Built This Project
 
@@ -39,12 +37,6 @@ To always be humble.
 To always learn with the eyes of a child.
 
 To always be a student, as if to live forever.
-
----
-
-You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu).
-
-If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 ## Tools
 
@@ -175,6 +167,10 @@ To help you get the most out of this repository, I developed the following tools
 
 </details>
 <!-- INDEX-END -->
+
+## Support
+
+You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 ## Contribution
 
