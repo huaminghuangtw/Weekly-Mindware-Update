@@ -28,7 +28,7 @@ I learned to [lower my identity](https://paulgraham.com/identity.html), to [assu
 
 > _“Nearly everything is really interesting if you go into it deeply enough.” — Richard Feynman_
 
-I believe that, staying curious is the only way to get closer to the frontier of [unknown unknowns](https://sketchplanations.com/unknown-unknowns)—what we don't know we don't know.
+I believe that, staying curious is the only way to get closer to the frontier of **[unknown unknowns](https://sketchplanations.com/unknown-unknowns)—what we don't know we don't know**.
 
 This project is a reminder to myself.
 
