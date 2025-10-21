@@ -83,15 +83,14 @@ def generate_tree(base_dir, rel_dir=""):
             idx = 1
 
         frontmatter = parse_frontmatter(os.path.join(base_dir, frel_path))
+        
+        slug = frontmatter.get('slug')
+        link_url = f"https://huami.ng/{slug}"
+        issue = frontmatter.get('issue', idx)
         week_num = frontmatter.get('weekNumber')
         year = frontmatter.get('year')
-        issue = frontmatter.get('issue', idx)
 
-        week_str = f"Week {week_num}, {year}"
-
-        link_url = f"https://huami.ng/wmu/{year}/week-{week_num}"
-
-        entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - {week_str}</a>')
+        entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - Week {week_num}, {year}</a>')
     
     return entries
 
