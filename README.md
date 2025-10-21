@@ -12,7 +12,7 @@ This repository is a weekly dump of ten ideas that spark my curiosity and expand
 
 > _“The first principle is that you must not fool yourself — and you are the easiest person to fool.” — Richard Feynman_
 
-I used to be arrogant, thinking I had the world figured out. A fool’s confidence. An [intellectual yet idiot](https://huami.ng/notes/the-intellectual-yet-idiot).
+I used to be arrogant, thinking I had the world figured out. A fool’s confidence. An [intellectual yet idiot](https://huami.ng/the-intellectual-yet-idiot).
 
 The more I learn, the more I realize that most of my certainties were [totally wrong and deluded](https://fs.blog/david-foster-wallace-this-is-water/). I’ve learned the hard way that, to learn is to be willing to let go of your ego.
 
@@ -75,7 +75,7 @@ To help you get the most out of this repository, I developed the following tools
 </a>
 </p>
 
-## Archive
+## Archives
 
 <!-- INDEX-START -->
 [![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_42.md)
