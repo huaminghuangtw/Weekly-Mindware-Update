@@ -199,7 +199,7 @@ To help you get the most out of this repository, I developed the following tools
 
 ## Support
 
-You can browse all issues at [huami.ng/wmu](https://huami.ng/wmu) and all shortcuts related to this project on [Shortcutomation](https://shortcutomation.com/gallery/weekly-mindware-update). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
+You can browse all issues at [huami.ng/weekly-mindware-update](https://huami.ng/weekly-mindware-update) and all shortcuts related to this project on [Shortcutomation](https://shortcutomation.com/gallery/weekly-mindware-update). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 ## Contribution
 
