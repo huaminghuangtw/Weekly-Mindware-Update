@@ -1,7 +1,3 @@
----
-created: 2025-10-21T15:16:53
-modified: 2025-11-22T21:26:33
----
 # Weekly Mindware Update
 
 > _“Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.” — Stephen Hawking_
@@ -82,17 +78,18 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_46.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_47.md)
 
-<details><summary><strong><a href=".">All Issues (98)</a></strong></summary>
+<details><summary><strong><a href=".">All Issues (99)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2025">2025 (46)</a>
+        <a href="issues/2025">2025 (47)</a>
       </strong>
     </summary>
 
+    * <a href="https://huami.ng/2025-week-47">#99 - Week 47, 2025</a>
     * <a href="https://huami.ng/2025-week-46">#98 - Week 46, 2025</a>
     * <a href="https://huami.ng/2025-week-45">#97 - Week 45, 2025</a>
     * <a href="https://huami.ng/2025-week-44">#96 - Week 44, 2025</a>
