@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T15:16:53
+modified: 2025-11-30T16:59:26
+---
 # Weekly Mindware Update
 
 > _“Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.” — Stephen Hawking_
@@ -42,7 +46,7 @@ To always be a student, as if to live forever.
 
 To help you get the most out of this repository, I developed the following tools:
 
-### 1. [Apple Shortcut](https://shortcutomation.com/gallery/shared/weekly-mindware-update/)
+### 1. [Apple Shortcut](https://shortcutomation.com/weekly-mindware-update/)
 
 <p align="center">
 <a href="assets/notification.png">
@@ -78,17 +82,18 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_47.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_48.md)
 
-<details><summary><strong><a href=".">All Issues (99)</a></strong></summary>
+<details><summary><strong><a href=".">All Issues (100)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2025">2025 (47)</a>
+        <a href="issues/2025">2025 (48)</a>
       </strong>
     </summary>
 
+    * <a href="https://huami.ng/2025-week-48">#100 - Week 48, 2025</a>
     * <a href="https://huami.ng/2025-week-47">#99 - Week 47, 2025</a>
     * <a href="https://huami.ng/2025-week-46">#98 - Week 46, 2025</a>
     * <a href="https://huami.ng/2025-week-45">#97 - Week 45, 2025</a>
