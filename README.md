@@ -78,17 +78,18 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_48.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025_Week_49.md)
 
-<details><summary><strong><a href=".">All Issues (100)</a></strong></summary>
+<details><summary><strong><a href=".">All Issues (101)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2025">2025 (48)</a>
+        <a href="issues/2025">2025 (49)</a>
       </strong>
     </summary>
 
+    * <a href="https://huami.ng/2025-week-49">#101 - Week 49, 2025</a>
     * <a href="https://huami.ng/2025-week-48">#100 - Week 48, 2025</a>
     * <a href="https://huami.ng/2025-week-47">#99 - Week 47, 2025</a>
     * <a href="https://huami.ng/2025-week-46">#98 - Week 46, 2025</a>
