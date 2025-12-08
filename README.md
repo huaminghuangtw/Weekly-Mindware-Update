@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21T15:16:53
-modified: 2025-12-08T16:44:01
+modified: 2025-12-08T16:44:02
 ---
 # Weekly Mindware Update
 
