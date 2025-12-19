@@ -80,7 +80,7 @@ To help you get the most out of this repository, I developed the following tools
 <!-- INDEX-START -->
 [![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025w9.md)
 
-<details><summary><strong><a href=".">All Issues (102)</a></strong></summary>
+<details><summary><strong><a href=""https://huami.ng/weekly-mindware-update">All Issues (102)</a></strong></summary>
 
 * <details>
     <summary>
