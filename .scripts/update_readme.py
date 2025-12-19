@@ -76,6 +76,8 @@ def generate_tree(base_dir, rel_dir=""):
 
     issues_in_this_dir = [f for f in _global_issue_list if os.path.dirname(f[1]) == rel_dir] if rel_dir == "" else files
     
+    # Parse issue numbers and sort in reverse order (latest first)
+    issues_with_metadata = []
     for fname, frel_path in issues_in_this_dir:
         try:
             idx = len(_global_issue_list) - _global_issue_list.index((fname, frel_path))
@@ -83,13 +85,16 @@ def generate_tree(base_dir, rel_dir=""):
             idx = 1
 
         frontmatter = parse_frontmatter(os.path.join(base_dir, frel_path))
-        
-        # Use the filename (without .md extension) as the slug
-        link_url = f"https://huami.ng/{fname[:-3]}"
         issue = frontmatter.get('issue', idx)
         week_num = frontmatter.get('weekNumber')
         year = frontmatter.get('year')
-
+        link_url = f"https://huami.ng/{fname[:-3]}"
+        
+        issues_with_metadata.append((issue, fname, frel_path, link_url, week_num, year))
+    
+    issues_with_metadata.sort(key=lambda x: x[0], reverse=True)
+    
+    for issue, fname, frel_path, link_url, week_num, year in issues_with_metadata:
         entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - Week {week_num}, {year}</a>')
     
     return entries
