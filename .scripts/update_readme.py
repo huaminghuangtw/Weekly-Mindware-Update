@@ -56,7 +56,7 @@ def generate_tree(base_dir, rel_dir=""):
                     _global_issue_list.append((fn, rel_path))
 
     for dname, drel_path in dirs:
-        issue_count = sum(1 for root, _, filenames in os.walk(os.path.join(base_dir, drel_path))
+        issue_count = sum(1 for _, _, filenames in os.walk(os.path.join(base_dir, drel_path))
                          for fn in filenames if fn.endswith('.md') and fn != "README.md")
 
         if dname == "issues":
@@ -84,8 +84,8 @@ def generate_tree(base_dir, rel_dir=""):
 
         frontmatter = parse_frontmatter(os.path.join(base_dir, frel_path))
         
-        slug = frontmatter.get('slug')
-        link_url = f"https://huami.ng/{slug}"
+        # Use the filename (without .md extension) as the slug
+        link_url = f"https://huami.ng/{fname[:-3]}"
         issue = frontmatter.get('issue', idx)
         week_num = frontmatter.get('weekNumber')
         year = frontmatter.get('year')
