@@ -78,9 +78,19 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2025/2025w9.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w1.md)
 
-<details><summary><strong><a href="https://huami.ng/weekly-mindware-update">All Issues (104)</a></strong></summary>
+<details><summary><strong><a href="https://huami.ng/weekly-mindware-update">All Issues (105)</a></strong></summary>
+
+* <details>
+    <summary>
+      <strong>
+        <a href="issues/2026">2026 (1)</a>
+      </strong>
+    </summary>
+
+    * <a href="https://huami.ng/2026w1">#105 - Week 1, 2026</a>
+  </details>
 
 * <details>
     <summary>
