@@ -1,3 +1,7 @@
+---
+created: 2026-01-11T16:45:03
+modified: 2026-01-23T13:13:41
+---
 # Weekly Mindware Update
 
 > _“Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.” — Stephen Hawking_
