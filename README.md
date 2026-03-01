@@ -1,3 +1,7 @@
+---
+created: 2026-02-06T14:03:42
+modified: 2026-03-01T18:35:35
+---
 # Weekly Mindware Update
 
 > _“Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.” — Stephen Hawking_
@@ -78,17 +82,18 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w8.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w9.md)
 
-<details><summary><strong><a href="https://huami.ng/weekly-mindware-update">All Issues (112)</a></strong></summary>
+<details><summary><strong><a href="https://huami.ng/weekly-mindware-update">All Issues (113)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2026">2026 (8)</a>
+        <a href="issues/2026">2026 (9)</a>
       </strong>
     </summary>
 
+    * <a href="https://huami.ng/2026w9">#113 - Week 9, 2026</a>
     * <a href="https://huami.ng/2026w8">#112 - Week 8, 2026</a>
     * <a href="https://huami.ng/2026w7">#111 - Week 7, 2026</a>
     * <a href="https://huami.ng/2026w6">#110 - Week 6, 2026</a>
