@@ -16,17 +16,6 @@ def parse_frontmatter(file_path):
     except:
         return {}
 
-def remove_frontmatter(md_content):
-    if md_content.startswith("---"):
-        # Split the Markdown content into three parts
-        # parts[0] = "" (before first ---)
-        # parts[1] = YAML frontmatter
-        # parts[2] = rest of the markdown
-        parts = md_content.split("---", 2)
-        if len(parts) > 2:
-            return parts[2].lstrip("\n")
-    return md_content
-
 def generate_tree(base_dir, rel_dir=""):
     global _global_issue_list
     abs_dir = os.path.join(base_dir, rel_dir)
@@ -95,7 +84,6 @@ def generate_tree(base_dir, rel_dir=""):
 def update_readme(readme_path, issues_md, badge_md):
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
-    content = remove_frontmatter(content)
     before, _, rest = content.partition("<!-- INDEX-START -->")
     _, _, after = rest.partition("<!-- INDEX-END -->")
     with open(readme_path, "w", encoding="utf-8") as f:
