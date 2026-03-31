@@ -74,7 +74,7 @@ def generate_tree(base_dir, rel_dir=""):
     issues_with_metadata.sort(reverse=True)
     
     for issue, fname, frontmatter in issues_with_metadata:
-        link_url = f"https://huami.ng/{fname[:-3]}"
+        link_url = f"https://huam.ing/{fname[:-3]}"
         week_num = frontmatter.get('weekNumber')
         year = frontmatter.get('year')
         entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - Week {week_num}, {year}</a>')
@@ -107,7 +107,7 @@ def main():
                       for fn in filenames if fn.endswith('.md') and fn != "README.md" 
                       and not any(part.startswith('.') for part in root.replace(project_root, '').split(os.sep)))
     issues_section = '\n'.join([
-        '<details><summary><strong><a href="https://huami.ng/weekly-mindware-update">All Issues ({})</a></strong></summary>'.format(total_issues),
+        '<details><summary><strong><a href="https://huam.ing/weekly-mindware-update">All Issues ({})</a></strong></summary>'.format(total_issues),
         '', *tree, '</details>'
     ])
     update_readme(os.path.join(project_root, "README.md"), issues_section, generate_latest_wmu_badge(project_root))
