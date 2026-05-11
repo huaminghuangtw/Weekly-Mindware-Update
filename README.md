@@ -80,7 +80,7 @@ To help you get the most out of this repository, I developed the following tools
 <!-- INDEX-START -->
 [![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w9.md)
 
-<details><summary><strong><a href="https://huam.ing/weekly-mindware-update">All Issues (123)</a></strong></summary>
+<details><summary><strong><a href="https://huam.ing/wmu">All Issues (123)</a></strong></summary>
 
 * <details>
     <summary>
@@ -237,7 +237,7 @@ To help you get the most out of this repository, I developed the following tools
 
 ## Support
 
-You can browse all issues at [huam.ing/weekly-mindware-update](https://huam.ing/weekly-mindware-update) and all shortcuts related to this project on [Shortcutomation](https://shortcutomation.com/gallery/weekly-mindware-update). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
+You can browse all issues at [huam.ing/wmu](https://huam.ing/wmu) and all shortcuts related to this project on [Shortcutomation](https://shortcutomation.com/gallery/weekly-mindware-update). If you find this project valuable, please consider supporting my work by [buying me a coffee](https://buymeacoffee.com/huaming.huang).
 
 ## Contribution
 
