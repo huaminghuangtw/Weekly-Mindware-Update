@@ -1,7 +1,11 @@
 import os
 import yaml
+import re
 
 _global_issue_list = None
+
+def strip_md_ext(name):
+    return os.path.splitext(name)[0]
 
 def parse_frontmatter(file_path):
     try:
@@ -74,7 +78,7 @@ def generate_tree(base_dir, rel_dir=""):
     issues_with_metadata.sort(reverse=True)
     
     for issue, fname, frontmatter in issues_with_metadata:
-        link_url = f"https://huam.ing/{fname[:-3]}"
+        link_url = f"https://huam.ing/{strip_md_ext(fname)}"
         week_num = frontmatter.get('weekNumber')
         year = frontmatter.get('year')
         entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - Week {week_num}, {year}</a>')
@@ -93,10 +97,16 @@ def generate_latest_wmu_badge(base_dir):
     all_wmus = [os.path.relpath(os.path.join(r, f), base_dir) 
                 for r, _, files in os.walk(base_dir) 
                 for f in files if f.endswith('.md') and f != 'README.md']
-    if all_wmus:
-        latest_wmu = sorted(all_wmus, reverse=True)[0]
-        return f"[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)]({latest_wmu})"
-    return ""
+    
+    # Extract year and week number (e.g. 2025w16.md -> (2025, 16))
+    def _year_week_key(path):
+        m = re.match(r"(\d{4})w(\d{1,2})", strip_md_ext(os.path.basename(path)))
+        if m:
+            return (int(m.group(1)), int(m.group(2)))
+        return (0, 0)
+
+    latest_wmu = sorted(all_wmus, key=_year_week_key, reverse=True)[0]
+    return f"[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)]({latest_wmu})"
 
 def main():
     global _global_issue_list
