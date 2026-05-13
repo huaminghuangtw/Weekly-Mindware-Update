@@ -47,7 +47,7 @@ To help you get the most out of this repository, I developed the following tools
 <p align="center">
 <a href="assets/notification.png">
 <kbd>
-<img src="assets/notification.png" width="" title=""/>
+<img src="assets/notification.png"/>
 </kbd>
 </a>
 </p>
@@ -57,7 +57,7 @@ To help you get the most out of this repository, I developed the following tools
 <p align="center">
 <a href="assets/widget.png">
 <kbd>
-<img src="assets/widget.png" width="" title=""/>
+<img src="assets/widget.png"/>
 </kbd>
 </a>
 </p>
@@ -70,7 +70,7 @@ To help you get the most out of this repository, I developed the following tools
 <p align="center">
 <a href="assets/callout.png">
 <kbd>
-<img src="assets/callout.png" width="" title=""/>
+<img src="assets/callout.png"/>
 </kbd>
 </a>
 </p>
