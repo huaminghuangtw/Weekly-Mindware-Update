@@ -242,3 +242,8 @@ You can browse all issues at [huam.ing/wmu](https://huam.ing/wmu) and all shortc
 ## Contribution
 
 Contributions are welcome! Please [open an issue](https://github.com/huaminghuangtw/Weekly-Mindware-Update/issues/new) or [submit a pull request](https://github.com/huaminghuangtw/Weekly-Mindware-Update/compare).
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal](LICENSE).
+
