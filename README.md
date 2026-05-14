@@ -80,7 +80,7 @@ To help you get the most out of this repository, I developed the following tools
 <!-- INDEX-START -->
 [![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w19.md)
 
-<details><summary><strong><a href="https://huam.ing/wmu">All Issues (123)</a></strong></summary>
+<details><summary><strong><a href="https://huam.ing/wmu">All Issues (124)</a></strong></summary>
 
 * <details>
     <summary>
@@ -232,6 +232,7 @@ To help you get the most out of this repository, I developed the following tools
     * <a href="https://huam.ing/2024w1">#1 - Week 1, 2024</a>
   </details>
 
+    * <a href="https://huam.ing/LICENSE">#0 - Week None, None</a>
 </details>
 <!-- INDEX-END -->
 
@@ -245,5 +246,4 @@ Contributions are welcome! Please [open an issue](https://github.com/huaminghuan
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE).
-
+This project is released into the public domain ([CC0 1.0](LICENSE.md)).
