@@ -78,17 +78,18 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w22.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w23.md)
 
-<details><summary><strong><a href="https://huam.ing/wmu">All Issues (127)</a></strong></summary>
+<details><summary><strong><a href="https://huam.ing/wmu">All Issues (128)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2026">2026 (22)</a>
+        <a href="issues/2026">2026 (23)</a>
       </strong>
     </summary>
 
+    * <a href="https://huam.ing/2026w23">#127 - Week 23, 2026</a>
     * <a href="https://huam.ing/2026w22">#126 - Week 22, 2026</a>
     * <a href="https://huam.ing/2026w21">#125 - Week 21, 2026</a>
     * <a href="https://huam.ing/2026w20">#124 - Week 20, 2026</a>
