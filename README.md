@@ -45,9 +45,9 @@ To help you get the most out of this repository, I developed the following tools
 ### 1. [Apple Shortcut](https://shortcutomation.com/weekly-mindware-update/)
 
 <p align="center">
-<a href="assets/notification.png">
+<a href="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp">
 <kbd>
-<img src="assets/notification.png"/>
+<img src="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp"/>
 </kbd>
 </a>
 </p>
@@ -55,9 +55,9 @@ To help you get the most out of this repository, I developed the following tools
 ### 2. [Scriptable Widget](https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js)
 
 <p align="center">
-<a href="assets/widget.png">
+<a href="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp">
 <kbd>
-<img src="assets/widget.png"/>
+<img src="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp"/>
 </kbd>
 </a>
 </p>
@@ -68,9 +68,9 @@ To help you get the most out of this repository, I developed the following tools
 ### 3. [Obsidian Callout](https://github.com/huaminghuangtw/Second-Brain/blob/main/Homepage.md)
 
 <p align="center">
-<a href="assets/callout.png">
+<a href="https://media.huam.ing/image/1baa932b137295590e1e5f953f6fdd3e.webp">
 <kbd>
-<img src="assets/callout.png"/>
+<img src="https://media.huam.ing/image/1baa932b137295590e1e5f953f6fdd3e.webp"/>
 </kbd>
 </a>
 </p>
