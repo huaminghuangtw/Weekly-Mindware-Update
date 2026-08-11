@@ -1,127 +1,120 @@
 import os
-import yaml
 import re
+import yaml
 
-_global_issue_list = None
+ISSUES_DIR = "issues"
+SITE_URL = "https://huam.ing"
+INDEX_START = "<!-- INDEX-START -->"
+INDEX_END = "<!-- INDEX-END -->"
+ISSUE_NAME = re.compile(r"^\d{4}w\d{1,2}\.md$")
 
-def strip_md_ext(name):
-    return os.path.splitext(name)[0]
 
-def parse_frontmatter(file_path):
+def parse_frontmatter(path):
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        if not content.startswith('---'):
-            return {}
-        end_idx = content.find('---', 3)
-        if end_idx == -1:
-            return {}
-        return yaml.safe_load(content[3:end_idx].strip()) or {}
-    except:
-        return {}
+        text = open(path, encoding="utf-8").read()
+        if text.startswith("---"):
+            end = text.find("---", 3)
+            if end != -1:
+                return yaml.safe_load(text[3:end]) or {}
+    except Exception:
+        pass
+    return {}
 
-def generate_tree(base_dir, rel_dir=""):
-    global _global_issue_list
-    abs_dir = os.path.join(base_dir, rel_dir)
-    entries = []
-    
-    all_items = os.listdir(abs_dir)
-    
-    if rel_dir == "":
-        dir_filter = lambda name: name == "issues"
-    elif rel_dir == "issues":
-        dir_filter = lambda name: name.isdigit() and len(name) == 4
-    else:
-        dir_filter = lambda name: True
-    
-    dirs = [(name, os.path.join(rel_dir, name)) for name in sorted(all_items, reverse=True) 
-            if not name.startswith('.') and os.path.isdir(os.path.join(abs_dir, name)) and dir_filter(name)]
-    
-    files = [(name, os.path.join(rel_dir, name)) for name in sorted(all_items, reverse=True) 
-             if not name.startswith('.') and name.endswith(".md") and name != "README.md"]
 
-    if _global_issue_list is None:
-        _global_issue_list = []
-        for root, _, filenames in os.walk(base_dir):
-            for fn in filenames:
-                if fn.endswith('.md') and fn != "README.md":
-                    rel_path = os.path.relpath(os.path.join(root, fn), base_dir)
-                    _global_issue_list.append((fn, rel_path))
+def collect_issues(root):
+    issues = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fn in filenames:
+            if not ISSUE_NAME.match(fn):
+                continue
+            path = os.path.join(dirpath, fn)
+            meta = parse_frontmatter(path)
+            issues.append(
+                (meta.get("issue", 0), os.path.relpath(path, root), meta))
+    return issues
 
-    for dname, drel_path in dirs:
-        issue_count = sum(1 for _, _, filenames in os.walk(os.path.join(base_dir, drel_path))
-                         for fn in filenames if fn.endswith('.md') and fn != "README.md")
 
-        if dname == "issues":
-            entries.extend(generate_tree(base_dir, drel_path))
-        else:
-            entries.append("\n".join([
-                '* <details>',
-                '    <summary>',
-                '      <strong>',
-                f'        <a href="{drel_path}">{dname} ({issue_count})</a>',
-                '      </strong>',
-                '    </summary>',
-                ''
-            ]))
-            entries.extend(generate_tree(base_dir, drel_path))
-            entries.append('  </details>\n')
+def latest_wmu_path(issues):
+    def year_week(item):
+        return tuple(map(int, re.search(r"(\d{4})w(\d{1,2})", item[1]).groups()))
+    return max(issues, key=year_week)[1]
 
-    issues_in_this_dir = [f for f in _global_issue_list if os.path.dirname(f[1]) == rel_dir] if rel_dir == "" else files
-    
-    issues_with_metadata = []
-    for fname, frel_path in issues_in_this_dir:
-        frontmatter = parse_frontmatter(os.path.join(base_dir, frel_path))
-        issue = frontmatter.get('issue', 0)
-        issues_with_metadata.append((issue, fname, frontmatter))
-    
-    issues_with_metadata.sort(reverse=True)
-    
-    for issue, fname, frontmatter in issues_with_metadata:
-        link_url = f"https://huam.ing/{strip_md_ext(fname)}"
-        week_num = frontmatter.get('weekNumber')
-        year = frontmatter.get('year')
-        entries.append(" " * 4 + f'* <a href="{link_url}">#{issue} - Week {week_num}, {year}</a>')
-    
-    return entries
 
-def update_readme(readme_path, issues_md, badge_md):
-    with open(readme_path, "r", encoding="utf-8") as f:
+def latest_wmu_badge(issues):
+    latest = latest_wmu_path(issues)
+    return (f"[![Read Latest WMU]"
+            f"(https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)]"
+            f"({latest})")
+
+
+def details_header(rel, name, count):
+    return f"""* <details>
+    <summary>
+      <strong>
+        <a href="{rel}">{name} ({count})</a>
+      </strong>
+    </summary>
+"""
+
+
+def build_index(issues):
+    """Render the nested <details> tree, grouping issues by their directory."""
+    lines = []
+
+    def render(rel_dir):
+        prefix = rel_dir + os.sep if rel_dir else ""
+        subs, here = {}, []
+        for issue, rel, meta in issues:
+            if not rel.startswith(prefix):
+                continue
+            rest = rel[len(prefix):]
+            if os.sep in rest:
+                subs.setdefault(rest.split(os.sep, 1)[0], []).append(
+                    (issue, rel, meta))
+            else:
+                here.append((issue, rel, meta))
+
+        for name in sorted(subs, reverse=True):
+            sub_rel = os.path.join(rel_dir, name)
+            if name == ISSUES_DIR:
+                render(sub_rel)  # container dir: render its children in place
+            else:
+                lines.append(details_header(sub_rel, name, len(subs[name])))
+                render(sub_rel)
+                lines.append("  </details>\n")
+
+        for issue, rel, meta in sorted(here, key=lambda x: (x[0], x[1]), reverse=True):
+            slug = os.path.splitext(os.path.basename(rel))[0]
+            lines.append(f'    * <a href="{SITE_URL}/{slug}">'
+                         f'#{issue} - Week {meta.get("weekNumber")}, {meta.get("year")}</a>')
+
+    render("")
+    return lines
+
+
+def update_readme(path, index, badge):
+    with open(path, encoding="utf-8") as f:
         content = f.read()
-    before, _, rest = content.partition("<!-- INDEX-START -->")
-    _, _, after = rest.partition("<!-- INDEX-END -->")
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(before + "<!-- INDEX-START -->\n" + badge_md + "\n\n" + issues_md + "\n<!-- INDEX-END -->" + after)
+    before, _, rest = content.partition(INDEX_START)
+    _, _, after = rest.partition(INDEX_END)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"{before}{INDEX_START}\n{badge}\n\n{index}\n{INDEX_END}{after}")
 
-def generate_latest_wmu_badge(base_dir):
-    all_wmus = [os.path.relpath(os.path.join(r, f), base_dir) 
-                for r, _, files in os.walk(base_dir) 
-                for f in files if f.endswith('.md') and f != 'README.md']
-    
-    # Extract year and week number (e.g. 2025w16.md -> (2025, 16))
-    def _year_week_key(path):
-        m = re.match(r"(\d{4})w(\d{1,2})", strip_md_ext(os.path.basename(path)))
-        if m:
-            return (int(m.group(1)), int(m.group(2)))
-        return (0, 0)
-
-    latest_wmu = sorted(all_wmus, key=_year_week_key, reverse=True)[0]
-    return f"[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)]({latest_wmu})"
 
 def main():
-    global _global_issue_list
-    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    _global_issue_list = None
-    tree = generate_tree(project_root)
-    total_issues = sum(1 for root, _, filenames in os.walk(project_root) 
-                      for fn in filenames if fn.endswith('.md') and fn != "README.md" 
-                      and not any(part.startswith('.') for part in root.replace(project_root, '').split(os.sep)))
-    issues_section = '\n'.join([
-        '<details><summary><strong><a href="https://huam.ing/wmu">All Issues ({})</a></strong></summary>'.format(total_issues),
-        '', *tree, '</details>'
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    issues = collect_issues(root)
+    index = "\n".join([
+        f'<details><summary><strong><a href="{SITE_URL}/wmu">'
+        f'All Issues ({len(issues)})</a></strong></summary>',
+        "",
+        *build_index(issues),
+        "</details>",
     ])
-    update_readme(os.path.join(project_root, "README.md"), issues_section, generate_latest_wmu_badge(project_root))
-    _global_issue_list = None
+    update_readme(os.path.join(root, "README.md"),
+                  index, latest_wmu_badge(issues))
+
 
 if __name__ == "__main__":
     main()
