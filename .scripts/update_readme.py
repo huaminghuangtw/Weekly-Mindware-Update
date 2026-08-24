@@ -86,8 +86,9 @@ def build_index(issues):
 
         for issue, rel, meta in sorted(here, key=lambda x: (x[0], x[1]), reverse=True):
             slug = os.path.splitext(os.path.basename(rel))[0]
+            year, week = re.match(r"(\d{4})w(\d{1,2})", slug).groups()
             lines.append(f'    * <a href="{SITE_URL}/{slug}">'
-                         f'#{issue} - Week {meta.get("weekNumber")}, {meta.get("year")}</a>')
+                         f'#{issue} - Week {week}, {year}</a>')
 
     render("")
     return lines
