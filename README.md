@@ -65,16 +65,6 @@ To help you get the most out of this repository, I developed the following tools
 > [!TIP]
 > _[Check out](https://github.com/huaminghuangtw/Scriptable) my other repository for customizable notifications and widgets created with [Scriptable](https://scriptable.app)!_
 
-### 3. [Obsidian Callout](https://github.com/huaminghuangtw/Second-Brain/blob/main/Homepage.md)
-
-<p align="center">
-<a href="https://media.huam.ing/image/1baa932b137295590e1e5f953f6fdd3e.webp">
-<kbd>
-<img src="https://media.huam.ing/image/1baa932b137295590e1e5f953f6fdd3e.webp"/>
-</kbd>
-</a>
-</p>
-
 ## Archives
 
 <!-- INDEX-START -->
