@@ -1,5 +1,5 @@
 ---
-modified: 2026-05-20
+modified: 2026-09-29
 ---
 
 Creative Commons Legal Code
