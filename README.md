@@ -45,21 +45,13 @@ To help you get the most out of this repository, I developed the following tools
 ### 1. [Apple Shortcut](https://shortcutomation.com/weekly-mindware-update/)
 
 <p align="center">
-<a href="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp">
-<kbd>
-<img src="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp"/>
-</kbd>
-</a>
+<a href="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp"><kbd><img src="https://media.huam.ing/image/237e942b832bd7216be1696076420164.webp"/></kbd></a>
 </p>
 
 ### 2. [Scriptable Widget](https://github.com/huaminghuangtw/Scriptable/blob/main/widget_quote-from-Weekly-Mindware-Update.js)
 
 <p align="center">
-<a href="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp">
-<kbd>
-<img src="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp"/>
-</kbd>
-</a>
+<a href="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp"><kbd><img src="https://media.huam.ing/image/db771441396b381462c7b64b085194fe.webp"/></kbd></a>
 </p>
 
 > [!TIP]
