@@ -1,10 +1,9 @@
-# Weekly Mindware Update
 
 > _“Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.” — Stephen Hawking_
 
 ## About
 
-This repository is a weekly dump of ten ideas that spark my curiosity and expand my mind. The sources are diverse, often captured while I’m [reading](https://github.com/huaminghuangtw/Brain-Food) or having a conversation with people.
+This repository is a weekly dump of ten ideas that spark my curiosity and expand my mind. The sources are diverse, often captured while I’m [reading](https://github.com/huaminghuangtw/Bookmarks) or having a conversation with people.
 
 ## Why I Built This Project
 
