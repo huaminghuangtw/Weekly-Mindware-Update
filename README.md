@@ -59,17 +59,23 @@ To help you get the most out of this repository, I developed the following tools
 ## Archives
 
 <!-- INDEX-START -->
-[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w37.md)
+[![Read Latest WMU](https://img.shields.io/badge/📖%20Read%20Latest%20WMU-3AA99F?style=for-the-badge&color=3AA99F)](issues/2026/2026w43.md)
 
-<details><summary><strong><a href="https://huam.ing/wmu">All Issues (141)</a></strong></summary>
+<details><summary><strong><a href="https://huam.ing/wmu">All Issues (147)</a></strong></summary>
 
 * <details>
     <summary>
       <strong>
-        <a href="issues/2026">2026 (37)</a>
+        <a href="issues/2026">2026 (43)</a>
       </strong>
     </summary>
 
+    * <a href="https://huam.ing/2026w43">#147 - Week 43, 2026</a>
+    * <a href="https://huam.ing/2026w42">#146 - Week 42, 2026</a>
+    * <a href="https://huam.ing/2026w41">#145 - Week 41, 2026</a>
+    * <a href="https://huam.ing/2026w40">#144 - Week 40, 2026</a>
+    * <a href="https://huam.ing/2026w39">#143 - Week 39, 2026</a>
+    * <a href="https://huam.ing/2026w38">#142 - Week 38, 2026</a>
     * <a href="https://huam.ing/2026w37">#141 - Week 37, 2026</a>
     * <a href="https://huam.ing/2026w36">#140 - Week 36, 2026</a>
     * <a href="https://huam.ing/2026w35">#139 - Week 35, 2026</a>
